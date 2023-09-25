@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">ФИО</label>
+            <input id="name" type="text" placeholder="ФИО" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email">
+        </div>
+
+        <div>
+            <label for="phone">Телефон</label>
+            <input id="phone" type="tel" placeholder="Телефон" disabled readonly>
+        </div>
+
+        <div>
+            <label for="age">Возраст</label>
+            <input id="age" type="number" placeholder="Возраст" disabled readonly>
+        </div>
+
+        <div>
+            <label for="password">Пароль</label>
+            <input id="password" type="password" placeholder="Пароль">
+        </div>
+
+        <div>
+            <label for="file">Файл</label>
+            <input id="file" type="file" disabled readonly>
+        </div>
+
+        <div>
+            <label for="date">Дата</label>
+            <input id="date" type="date">
+        </div>
+
+        <div>
+            <label for="color">Цвет</label>
+            <input id="color" type="color">
+        </div>
+
+        <div>
+            <label for="yellow">Желтый</label>
+            <input id="yellow" type="checkbox" name="colors" value="yellow">
+
+            <label for="green">Зеленый</label>
+            <input id="green" type="checkbox" name="colors" value="green">
+        </div>
+
+        <div>
+            <label for="yellow">Желтый</label>
+            <input id="greem" type="radio" name="colors" value="yellow">
+
+            <label for="green">Зеленый</label>
+            <input id="green" type="radio" name="colors" value="green">
+        </div>
+
+        <div>
+            <label for="textarea">Текстовое поле</label>
+            <textarea name="text" rows="4" cols="50" id="textarea" readonly>Введите текст...</textarea>
+        </div>
+
+        <div>
+            <label for="select">Выбор</label>
+            <select id="select">
+                <option value="option1">Опция 1</option>
+                <option value="option2">Опция 2</option>
+                <option value="option3">Опция 3</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="multiselect">Мультиселект</label>
+            <select id="multiselect" multiple>
+                <option value="option1">Опция 1</option>
+                <option value="option2">Опция 2</option>
+                <option value="option3">Опция 3</option>
+            </select>
+        </div>
+        
+        <input type="hidden" id="hiddenInput">
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
