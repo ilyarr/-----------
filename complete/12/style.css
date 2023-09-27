@@ -67,7 +67,6 @@ img {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    height: 100%;
 }
 .item2__name{
     margin-bottom: 10px;
@@ -77,6 +76,7 @@ img {
     margin-bottom: 10px;
     font-size: 14px;
     flex-grow: 1;
+    
 }
 .item2__footer{
     background-color: black;
@@ -86,12 +86,11 @@ img {
 }
 .item2__bg{
     background-color: black;
-    flex-shrink: 0;
+    height: 150px
 }
 .item2__body{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    flex-grow: 1;
 }

@@ -31,6 +31,7 @@
         .banner{
             border: 1px solid red;
             padding: 20px;
+            position: relative;
         }
         .banner__wrapper{
             height: 300px;
@@ -40,10 +41,16 @@
         }
 
         .banner__content{
-
+            background-color: black;
+            color: white;
+            width: 60%;
+            padding: 20px;
         }
         .banner__media{
-
+            position:absolute;
+            top:0;
+            right:0;
+            z-index:-1;
         }
     </style>
 </head>

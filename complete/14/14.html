@@ -22,7 +22,13 @@
             font-size: 18px;
             padding: 50px;
         }
-             
+        .grid__item:first-child{
+            order: 12;
+        }
+        .grid__item:last-child{
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
         .grid__item--9{
             grid-column: span 3;
         }
